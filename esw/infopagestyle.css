@@ -1,0 +1,49 @@
+
+body 
+{
+    background-image: url('images/campus1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.block 
+{
+    align-content: center;
+    box-sizing: fixed;
+    text-align: center;
+    margin-left: 37.5%;
+    width : 25%;
+    min-height: 150px;
+    
+}
+
+#b1
+{
+    background-color: rgba(33, 18, 240, 0.959);
+ 
+}    
+#b2
+{
+    background-color: rgb(245, 75, 208);
+}
+#b3
+{
+    background-color: rgb(97, 212, 103);
+}
+#b4
+{
+    background-color: rgb(250, 253, 40);
+}
+
+
+.data-info
+{
+    font-size: large;
+    align-content: center;
+    font-weight: bolder;
+}
+
+
+
+
