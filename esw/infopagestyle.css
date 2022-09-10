@@ -11,40 +11,55 @@ body
 {
     align-content: center;
     box-sizing: fixed;
-    text-align: center;
-    margin-left: 37.5%;
-    width : 25%;
-    min-height: 150px;
+    text-align: left;
+    margin-left: 10%;
+    width : 70%;
+    min-height:max-content;
     
 }
 
 #b1
 {
     background-color: rgba(33, 18, 240, 0.959);
+    /*
     background-image: url('images/tmp.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: local;
+    */
 }    
 #b2
 {
     background-color: rgb(245, 75, 208);
+   /*
     background-image: url('images/spo2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: 100%;
+    */
 }
 #b3
 {
     background-color: rgb(97, 212, 103);
+   /*
     background-image: url('images/hr.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: 100%;
+    */
 }
 #b4
 {
-    background-color: rgb(250, 253, 40);+
+    background-color: rgb(250, 253, 40);
+    align-content: center;
+    box-sizing: fixed;
+    text-align: center;
+    margin-left: 10%;
+    width : 70%;
+ 
+    min-height : 30 px;
+    max-height : 150 px;
+    
    
 }
 #hd
