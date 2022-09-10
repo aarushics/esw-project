@@ -1,8 +1,0 @@
-useful links
-
-graph
-https://www.w3schools.com/js/tryit.asp?filename=tryai_chartjs_lines
-https://stackoverflow.com/questions/40219272/chart-js-how-to-add-data-to-a-specific-dataset
-
-encrypt/decrypt
-https://stackoverflow.com/questions/18279141/javascript-string-encryption-and-decryption
