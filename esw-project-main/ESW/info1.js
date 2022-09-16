@@ -5,15 +5,15 @@
 // $("#target").load("https://api.thingspeak.com/channels/1579833/fields/1.json?results=2")
   
 
-// fetch('https://api.thingspeak.com/channels/1579833/feeds.json?results=2')
-//   .then((response) => response.json())
-//   .then((data) => document.getElementById("target").innerHTML = data["feeds"][0]["field1"]);
-
-fetch('https://api.thingspeak.com/channels/1579833/fields/1.json?results=1')
+fetch('https://api.thingspeak.com/channels/1579833/feeds.json?results=2')
   .then((response) => response.json())
-  .then((data) => {
-    // var decrypted = CryptoJS.AES.decrypt(data["feeds"][1]["field1"], "Secret Passphrase");
-    document.getElementById("target").innerHTML = decrypted;});
+  .then((data) => document.getElementById("target").innerHTML = data["feeds"][0]["field1"]);
+
+// fetch('https://api.thingspeak.com/channels/1579833/fields/1.json?results=1')
+//   .then((response) => response.json())
+//   .then((data) => {
+//     // var decrypted = CryptoJS.AES.decrypt(data["feeds"][1]["field1"], "Secret Passphrase");
+//     document.getElementById("target").innerHTML = decrypted;});
 
   
   

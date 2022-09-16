@@ -1,0 +1,10 @@
+body{
+    background-image: url(../Screenshot\ 2022-09-16\ at\ 3.37.02\ PM.png);
+    background-size: cover;
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+    /* size: 100px; */
+}

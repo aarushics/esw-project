@@ -10,3 +10,20 @@ table,th, td {
     min-height: 20%;
   }
 
+  #kuch{
+    text-align: center;
+    font-style: italic;
+  }
+
+  .college-logo{
+    margin-left: 41.7%;
+  }
+
+  body{
+    background-image: url(../Screenshot\ 2022-09-16\ at\ 3.24.51\ PM.png);
+  }
+
+  table{
+    background-color: white;
+  }
+
