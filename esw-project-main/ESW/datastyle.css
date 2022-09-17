@@ -10,6 +10,11 @@ table,th, td {
     min-height: 20%;
   }
 
+  th
+  {
+    background-color: rgb(156, 152, 152);
+  }
+
   #kuch{
     text-align: center;
     font-style: italic;
@@ -25,5 +30,10 @@ table,th, td {
 
   table{
     background-color: white;
+  }
+
+  .stats
+  {
+    background-color: aquamarine;
   }
 
