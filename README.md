@@ -1,4 +1,5 @@
-We are showing User Id vitals of fall status and location in case of fall.
-On clicking on the User Id, we are directed to the personal information page of the user.
-The encrypted data is sent from ESP32 and decrypted at the website.
-The User detials are fetched from thingspeak.
+The website shows the vital data :
+temperature , Heart Rate , SpO2 level , Blood Pressure , Fall detection(type Fall/ADL/ADL Fall) , location in case of fall
+On clicking UserId personal information stored via registration page and graphical data for vitals.
+the data is encrypted at ESP32 and decrypted at websited.
+on thinkspeak and oneM2M data is in encrypted form.
