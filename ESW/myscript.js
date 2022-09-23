@@ -56,7 +56,7 @@ $(document).ready(function () {
 
                     <div class="callout-header">Fall Detected</div>
                   
-                    <span class="closebtn" onclick="this.parentElement.style.display='none';">X</span>
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
                   
                     <div class="callout-container">
                   
@@ -82,23 +82,23 @@ $(document).ready(function () {
                       </tr>
                       <div class="callout">
 
-  <div class="callout-header">Fall Detected</div>
+                      <div class="callout-header" , style="background-color:red,color:black;">Fall Detected</div>
 
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">X</span>
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
 
-  <div class="callout-container">
+                        <div class="callout-container">
 
-    <p>A Fall of User: ${k} has been detected at <a href="https://maps.google.com/?q=${js["feeds"][0]["field6"]}">Location</a> at <span id='datetime'></span>.</p>
+                          <p>A Fall of User: ${k} has been detected at <a href="https://maps.google.com/?q=${js["feeds"][0]["field6"]}">Location</a> at <span id='datetime'></span>.</p>
 
-    <script>
-        var dt = new Date();
-        document.getElementById('datetime').innerHTML += dt.getDate() + "\" + dt.getMonth() + "\" + dt.getYear() + "  " + dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds() ;
-    </script>
+                          <script>
+                              var dt = new Date();
+                              document.getElementById('datetime').innerHTML += dt.getDate() + "\" + dt.getMonth() + "\" + dt.getYear() + "  " + dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds() ;
+                          </script>
 
-  </div>
+                        </div>
 
-</div>
-</div>
+                      </div>
+                    </div>
                       `
                                       
                     }
